@@ -15,6 +15,12 @@
 		E3B139EE26DFB39A00B830F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B139EC26DFB39A00B830F3 /* LaunchScreen.storyboard */; };
 		E3B139F126DFB39A00B830F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B139F026DFB39A00B830F3 /* main.m */; };
 		E3B139F926DFC4DE00B830F3 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B139F826DFC4DE00B830F3 /* AVCamPreviewView.m */; };
+		E3B139FC26DFD36000B830F3 /* SimpleGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B139FB26DFD36000B830F3 /* SimpleGLContext.m */; };
+		E3B139FF26DFD70F00B830F3 /* SimpleGLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B139FE26DFD70F00B830F3 /* SimpleGLProgram.m */; };
+		E3B13A0226E1153100B830F3 /* SimpleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0126E1153000B830F3 /* SimpleFilter.m */; };
+		E3B13A0526E1294F00B830F3 /* SimpleGLDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0426E1294F00B830F3 /* SimpleGLDrawable.m */; };
+		E3B13A0826E12AE700B830F3 /* SimpleGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0726E12AE700B830F3 /* SimpleGLUtils.m */; };
+		E3B13A0B26E136EC00B830F3 /* SimpleYuvFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0A26E136EC00B830F3 /* SimpleYuvFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,18 @@
 		E3B139F026DFB39A00B830F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3B139F726DFC4DE00B830F3 /* AVCamPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
 		E3B139F826DFC4DE00B830F3 /* AVCamPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		E3B139FA26DFD36000B830F3 /* SimpleGLContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGLContext.h; sourceTree = "<group>"; };
+		E3B139FB26DFD36000B830F3 /* SimpleGLContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLContext.m; sourceTree = "<group>"; };
+		E3B139FD26DFD70F00B830F3 /* SimpleGLProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGLProgram.h; sourceTree = "<group>"; };
+		E3B139FE26DFD70F00B830F3 /* SimpleGLProgram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLProgram.m; sourceTree = "<group>"; };
+		E3B13A0026E1153000B830F3 /* SimpleFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFilter.h; sourceTree = "<group>"; };
+		E3B13A0126E1153000B830F3 /* SimpleFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFilter.m; sourceTree = "<group>"; };
+		E3B13A0326E1294F00B830F3 /* SimpleGLDrawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGLDrawable.h; sourceTree = "<group>"; };
+		E3B13A0426E1294F00B830F3 /* SimpleGLDrawable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLDrawable.m; sourceTree = "<group>"; };
+		E3B13A0626E12AE700B830F3 /* SimpleGLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGLUtils.h; sourceTree = "<group>"; };
+		E3B13A0726E12AE700B830F3 /* SimpleGLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLUtils.m; sourceTree = "<group>"; };
+		E3B13A0926E136EC00B830F3 /* SimpleYuvFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleYuvFilter.h; sourceTree = "<group>"; };
+		E3B13A0A26E136EC00B830F3 /* SimpleYuvFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleYuvFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,18 @@
 				E3B139E526DFB39700B830F3 /* ViewController.m */,
 				E3B139F726DFC4DE00B830F3 /* AVCamPreviewView.h */,
 				E3B139F826DFC4DE00B830F3 /* AVCamPreviewView.m */,
+				E3B139FA26DFD36000B830F3 /* SimpleGLContext.h */,
+				E3B139FB26DFD36000B830F3 /* SimpleGLContext.m */,
+				E3B139FD26DFD70F00B830F3 /* SimpleGLProgram.h */,
+				E3B139FE26DFD70F00B830F3 /* SimpleGLProgram.m */,
+				E3B13A0026E1153000B830F3 /* SimpleFilter.h */,
+				E3B13A0126E1153000B830F3 /* SimpleFilter.m */,
+				E3B13A0926E136EC00B830F3 /* SimpleYuvFilter.h */,
+				E3B13A0A26E136EC00B830F3 /* SimpleYuvFilter.m */,
+				E3B13A0326E1294F00B830F3 /* SimpleGLDrawable.h */,
+				E3B13A0426E1294F00B830F3 /* SimpleGLDrawable.m */,
+				E3B13A0626E12AE700B830F3 /* SimpleGLUtils.h */,
+				E3B13A0726E12AE700B830F3 /* SimpleGLUtils.m */,
 				E3B139E726DFB39700B830F3 /* Main.storyboard */,
 				E3B139EA26DFB39A00B830F3 /* Assets.xcassets */,
 				E3B139EC26DFB39A00B830F3 /* LaunchScreen.storyboard */,
@@ -150,10 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B13A0826E12AE700B830F3 /* SimpleGLUtils.m in Sources */,
+				E3B139FF26DFD70F00B830F3 /* SimpleGLProgram.m in Sources */,
+				E3B13A0226E1153100B830F3 /* SimpleFilter.m in Sources */,
+				E3B139FC26DFD36000B830F3 /* SimpleGLContext.m in Sources */,
 				E3B139E626DFB39700B830F3 /* ViewController.m in Sources */,
 				E3B139E026DFB39700B830F3 /* AppDelegate.m in Sources */,
+				E3B13A0B26E136EC00B830F3 /* SimpleYuvFilter.m in Sources */,
 				E3B139F126DFB39A00B830F3 /* main.m in Sources */,
 				E3B139E326DFB39700B830F3 /* SceneDelegate.m in Sources */,
+				E3B13A0526E1294F00B830F3 /* SimpleGLDrawable.m in Sources */,
 				E3B139F926DFC4DE00B830F3 /* AVCamPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,12 +335,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VR2UH8RSRQ;
+				ENABLE_BITCODE = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 					"GLES_SILENCE_DEPRECATION=1",
 				);
 				INFOPLIST_FILE = CameraWithOpenGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,8 +360,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VR2UH8RSRQ;
+				ENABLE_BITCODE = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "GLES_SILENCE_DEPRECATION=1";
 				INFOPLIST_FILE = CameraWithOpenGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
