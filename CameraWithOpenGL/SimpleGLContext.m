@@ -8,6 +8,7 @@
 #import "SimpleGLContext.h"
 #import "SimpleGLUtils.h"
 #import "SimpleYuvFilter.h"
+#import "SimpleGrayScaleFilter.h"
 
 @interface SimpleGLContext ()
 
@@ -44,7 +45,7 @@
 
 - (SimpleYuvFilter *)inputFilter {
     if (!_inputFilter) {
-        _inputFilter = [[SimpleYuvFilter alloc] init];
+        _inputFilter = [[SimpleGrayScaleFilter alloc] init];
         _inputFilter.textureCacheRef = _textureCacheRef;
     }
     return _inputFilter;
