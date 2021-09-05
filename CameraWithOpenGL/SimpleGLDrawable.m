@@ -34,6 +34,7 @@
 }
 
 - (GLuint)prepareToDrawAtTextureIndex:(GLuint)index program:(SimpleGLProgram *)program {
+    NSLog(@"-- 6: active texture");
     glActiveTexture([SimpleGLUtils activeTextureFromIndex:index]);
     glBindTexture(GL_TEXTURE_2D, _textureId);
     glUniform1i([program uniformWithName:_identifier.UTF8String], index);

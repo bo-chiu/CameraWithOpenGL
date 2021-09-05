@@ -174,6 +174,7 @@
 
 #pragma mark - AVCaptureVideoDataOutputSampleBufferDelegate
 - (void)captureOutput:(AVCaptureOutput *)output didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {
+    NSLog(@"-- 0: did output");
     CVPixelBufferRef pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
     [self.glContext becomeCurrentContext];
     self.glContext.viewPortSize = self.previewRect.size;
@@ -183,6 +184,7 @@
     [self.glkView bindDrawable];
     CGPoint textureScaleFactor = [self textureScaleFactorForGLKView];
     [self.glContext renderToPreviewFilterWithInputTextureId:outputTextureId textureScaleFactor:textureScaleFactor];
+    NSLog(@"-- 8: display");
     [self.glkView display];
 }
 

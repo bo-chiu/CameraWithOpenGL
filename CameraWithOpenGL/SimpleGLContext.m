@@ -71,6 +71,7 @@
         CFRelease(_textureCacheRef);
     }
     
+    NSLog(@"-- 1: reload texture");
     CVReturn error = CVOpenGLESTextureCacheCreate(kCFAllocatorDefault, NULL, _glContext, NULL, &_textureCacheRef);
     
     self.inputFilter.textureCacheRef = _textureCacheRef;

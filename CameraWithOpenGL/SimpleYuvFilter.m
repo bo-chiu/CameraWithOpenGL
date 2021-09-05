@@ -27,6 +27,7 @@ char * const kSimpleGLYuvFilterFragment;
 }
 
 - (void)loadYUV:(CVPixelBufferRef)pixelBuffer {
+    NSLog(@"-- 4: load yuv texture");
     int width = (int) CVPixelBufferGetWidth(pixelBuffer);
     int height = (int) CVPixelBufferGetHeight(pixelBuffer);
     

@@ -222,6 +222,7 @@ char * const kSimpleNoFilterFragment;
 
 - (GLuint)render {
     [_program use];
+    NSLog(@"-- 5: glEnableVertexAttribArray (render)");
     glEnableVertexAttribArray(_attrPosition);
     glEnableVertexAttribArray(_attrInputTextureCoordinate);
     glVertexAttribPointer(_attrPosition, 2, GL_FLOAT, 0, 0, squareVertices);
@@ -247,6 +248,7 @@ char * const kSimpleNoFilterFragment;
     glViewport(0, 0, self.viewPortSize.width, self.viewPortSize.height);
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    NSLog(@"-- 7: glDrawArrays");
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 }
 
@@ -256,6 +258,7 @@ char * const kSimpleNoFilterFragment;
     
     CVOpenGLESTextureRef outputTextureRef;
     CVReturn error = kCVReturnSuccess;
+    NSLog(@"-- 2: create texture from pixel buffer");
     error = CVOpenGLESTextureCacheCreateTextureFromImage(kCFAllocatorDefault,
                                                  _textureCacheRef,
                                                  _outputPixelBuffer,
@@ -278,6 +281,7 @@ char * const kSimpleNoFilterFragment;
     CFRelease(outputTextureRef);
     
     // create output frame buffer
+    NSLog(@"-- 3: attach texture to the framebuffer");
     glGenFramebuffers(1, &_outputFrameBuffer);
     glBindFramebuffer(GL_FRAMEBUFFER, _outputFrameBuffer);
     glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, _outputTextureId, 0);
