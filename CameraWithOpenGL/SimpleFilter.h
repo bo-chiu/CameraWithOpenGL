@@ -40,6 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)draw;
 
++ (const GLfloat *)textureCoordinatesForRotation:(SimpleGLImageRotation)rotation;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -21,6 +21,7 @@
 		E3B13A0526E1294F00B830F3 /* SimpleGLDrawable.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0426E1294F00B830F3 /* SimpleGLDrawable.m */; };
 		E3B13A0826E12AE700B830F3 /* SimpleGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0726E12AE700B830F3 /* SimpleGLUtils.m */; };
 		E3B13A0B26E136EC00B830F3 /* SimpleYuvFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A0A26E136EC00B830F3 /* SimpleYuvFilter.m */; };
+		E3B13A1426E4FBEC00B830F3 /* SimpleGrayScaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B13A1326E4FBEC00B830F3 /* SimpleGrayScaleFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		E3B13A0726E12AE700B830F3 /* SimpleGLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLUtils.m; sourceTree = "<group>"; };
 		E3B13A0926E136EC00B830F3 /* SimpleYuvFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleYuvFilter.h; sourceTree = "<group>"; };
 		E3B13A0A26E136EC00B830F3 /* SimpleYuvFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleYuvFilter.m; sourceTree = "<group>"; };
+		E3B13A1226E4FBEC00B830F3 /* SimpleGrayScaleFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleGrayScaleFilter.h; sourceTree = "<group>"; };
+		E3B13A1326E4FBEC00B830F3 /* SimpleGrayScaleFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGrayScaleFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				E3B13A0126E1153000B830F3 /* SimpleFilter.m */,
 				E3B13A0926E136EC00B830F3 /* SimpleYuvFilter.h */,
 				E3B13A0A26E136EC00B830F3 /* SimpleYuvFilter.m */,
+				E3B13A1226E4FBEC00B830F3 /* SimpleGrayScaleFilter.h */,
+				E3B13A1326E4FBEC00B830F3 /* SimpleGrayScaleFilter.m */,
 				E3B13A0326E1294F00B830F3 /* SimpleGLDrawable.h */,
 				E3B13A0426E1294F00B830F3 /* SimpleGLDrawable.m */,
 				E3B13A0626E12AE700B830F3 /* SimpleGLUtils.h */,
@@ -189,6 +194,7 @@
 				E3B13A0B26E136EC00B830F3 /* SimpleYuvFilter.m in Sources */,
 				E3B139F126DFB39A00B830F3 /* main.m in Sources */,
 				E3B139E326DFB39700B830F3 /* SceneDelegate.m in Sources */,
+				E3B13A1426E4FBEC00B830F3 /* SimpleGrayScaleFilter.m in Sources */,
 				E3B13A0526E1294F00B830F3 /* SimpleGLDrawable.m in Sources */,
 				E3B139F926DFC4DE00B830F3 /* AVCamPreviewView.m in Sources */,
 			);
